@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import Products from '../Products/Products';
 
 const fetchData = async() =>{
-    const res = await fetch("/public/data.json")
+    const res = await fetch("/data.json")
     return res.json()
 }
 

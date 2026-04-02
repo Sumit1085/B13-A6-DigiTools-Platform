@@ -8,7 +8,8 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["100+ templates", "ATS optimization", "Export to PDF"],
-    "icon": "file-text"
+    "icon": "file-text",
+    "image" : "https://i.ibb.co.com/FkGkkFbC/writting.png"
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["Responsive design", "Custom domains", "SEO optimized"],
-    "icon": "globe"
+    "icon": "globe",
+    "image" : "https://i.ibb.co.com/m5NPDMT6/portfolio.png"
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "tag": "new",
     "tagType": "new",
     "features": ["Application tracking", "Interview reminders", "Notes section"],
-    "icon": "briefcase"
+    "icon": "briefcase",
+    "image" : "https://i.ibb.co.com/NnGMnyCv/design-tool.png"
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["AI writing assistant", "Custom templates", "Download as PDF"],
-    "icon": "edit"
+    "icon": "edit",
+    "image" : "https://i.ibb.co.com/k226dXg7/operation.png"
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["Profile analysis", "Keyword suggestions", "Headline generator"],
-    "icon": "linkedin"
+    "icon": "linkedin",
+    "image" : "https://i.ibb.co.com/7JKTtvGw/social-media.png"
   },
   {
     "id": 6,
@@ -63,6 +68,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["Mock interviews", "Common Q&A", "Expert tips"],
-    "icon": "message-circle"
+    "icon": "message-circle",
+    "image" : "https://i.ibb.co.com/392XkC8Q/photo.png"
   }
 ]
