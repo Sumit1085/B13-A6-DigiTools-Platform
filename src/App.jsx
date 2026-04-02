@@ -8,6 +8,7 @@ import Navbar from './Components/Navbar/Navbar'
 import PremiumTools from './Components/Premium-Tools/PremiumTools'
 import Pricing from './Components/Pricing/Pricing'
 import Steps from './Components/Steps/Steps'
+import { ToastContainer, toast } from 'react-toastify';
 
 function App() {
 
@@ -21,6 +22,8 @@ function App() {
       <Pricing></Pricing>
       <CallBanner></CallBanner>
       <Footer></Footer>
+              <ToastContainer />
+
     </>
     
   )

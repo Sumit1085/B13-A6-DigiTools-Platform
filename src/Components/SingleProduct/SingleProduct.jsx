@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { TiTick } from "react-icons/ti";
+import {  toast } from 'react-toastify';
 
 
 const SingleProduct = ({ card, selectedProducts, setSelectedProducts ,total, setTotal }) => {
@@ -8,6 +9,7 @@ const SingleProduct = ({ card, selectedProducts, setSelectedProducts ,total, set
         SetIsSelected(true)
         setSelectedProducts([...selectedProducts, card])
         setTotal(card.price + total)
+        toast(`${card.name} has been added in cart` )
     }
     return (
         <div>

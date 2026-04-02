@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaDeleteLeft } from "react-icons/fa6";
 import { IoIosDocument } from "react-icons/io";
+import {  toast } from 'react-toastify';
 
 
 
@@ -10,6 +11,7 @@ const HandleProduct = ({ selectedProducts, setSelectedProducts, total,setTotal }
         const filter = selectedProducts.filter(filter => filter.name !== product.name)
         setSelectedProducts(filter)
         setTotal(total-product.price)
+        toast.success(`${product.name} has successfully removed from cart`)
         
         
     }
@@ -17,6 +19,7 @@ const HandleProduct = ({ selectedProducts, setSelectedProducts, total,setTotal }
     const handleProductarray = () =>{
         setSelectedProducts([])
         setTotal(0)
+        toast.success(`All Items has successfully added to cart`)
         
     }    
     return (

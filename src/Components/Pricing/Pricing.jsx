@@ -7,7 +7,7 @@ const Pricing = () => {
                 <h1 className='text-[#101727] text-5xl font-extrabold '>Simple, Transparent Pricing</h1>
                 <p className='mt-4 text-[#627382]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-3 mt-10'>
+            <div className='grid grid-cols-1 md:grid-cols-3 mt-10 gap-5'>
                 <div className="card  bg-base-100 shadow-lg">
                     <div className="card-body rounded-4xl">
                         
